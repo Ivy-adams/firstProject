@@ -1,0 +1,99 @@
+body {
+    color: black; 
+    margin: 0px 0px 0px 0px;
+}
+a.logos {
+    width:10px;
+     height:10px;
+      /* color:white;  */
+      padding: 0px 0px 0px 0px;}
+
+.body {
+    padding:100px;
+     margin: 10px 0px 10px 0px;
+    color: black;
+    position:relative;
+    opacity:1;
+}
+.body::before {
+    content:"";
+    background-image: url("../assets/concert.jpeg");
+    /* background-size: cover; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left:0px;
+opacity: 0.75;
+}
+.text {
+    position:relative;
+}
+h1 {
+    
+    text-transform: uppercase;
+     color: black;
+     flex-wrap: wrap;
+     font-size: 50px;
+     font-family: sans-serif,Arial, Helvetica, sans-serif;
+     font-stretch: expanded;
+
+}
+p.lorem {
+    position:relative;
+    border: 1px solid white;
+     padding: 5px;}
+
+div.aboutpage {
+     text-align: right; 
+     background-color: white;
+      padding:10px;
+}
+div.header, .top1 {
+    padding:0px 10px 0px 10px;
+    text-align: right; 
+    padding:5px 20px 5px 20px;
+    background-color: rgb(68, 60, 60);
+    color:white;
+}
+div.footer {background-color: #303339;
+     padding-top:30px;
+     padding-bottom:5px;
+      text-align:center;}
+ a.about, .icons {
+    padding: 0px 10px 0px 10px;
+     /* image: url("../assets/twitter.jpeg"); */
+    }
+p>span {
+    margin:5px 2px 5px 2px; 
+    background-color:#303339; 
+    padding:10px 10px 10px 10px;}
+
+ h3.text {
+    padding-bottom:10px;
+     color:antiquewhite;
+      }   
+.fa {
+    color:white;
+}
+.event-content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.event-card {
+    padding:40px 10px 0px 10px;
+    border:1px black;
+    margin:2px;
+    width:170px;
+    height:200px;
+    background-color: #46494F;
+    color:#C45D59;
+
+
+}
+.event-card>img {
+    width:50px;
+    height:50px;
+}
